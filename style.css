@@ -1,13 +1,15 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(222, 135, 222);
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(222, 135, 222);
 }
 
 .inicio {
-    display: flex;
-    height: 100vh;
-}.foto {
+	display: flex;
+	height: 100vh;
+}
+
+.foto {
 	flex: 1;
 	background-color: rgb(62, 166, 170);
 	display: flex;
@@ -23,14 +25,22 @@ body {
 
 /* Estilos para a seção de informações pessoais */
 .infos {
-flex: 2; /* Permite que esta seção ocupe 2 partes do espaço disponível (o dobro da seção .inicio) */
-padding: 60px; /* Adiciona um espaçamento interno de 60 pixels em todos os lados */
-display: flex; /* Faz com que os itens dentro sejam flexíveis */
-flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
-justify-content: center; /* Alinha o conteúdo verticalmente ao centro */
+	flex: 2;
+	/* Permite que esta seção ocupe 2 partes do espaço disponível (o dobro da seção .inicio) */
+	padding: 60px;
+	/* Adiciona um espaçamento interno de 60 pixels em todos os lados */
+	display: flex;
+	/* Faz com que os itens dentro sejam flexíveis */
+	flex-direction: column;
+	/* Organiza os itens em coluna (um abaixo do outro) */
+	justify-content: center;
+	/* Alinha o conteúdo verticalmente ao centro */
 }
+
 /* Estilos para o título principal (nome) dentro de .infos */
 .infos h1 {
-font-size: 48px; /* Define o tamanho da fonte como 48 pixels */
-margin: 0; /* Remove as margens padrão (superior e inferior) do título */
+	font-size: 48px;
+	/* Define o tamanho da fonte como 48 pixels */
+	margin: 0;
+	/* Remove as margens padrão (superior e inferior) do título */
 }
